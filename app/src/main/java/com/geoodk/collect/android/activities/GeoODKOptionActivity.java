@@ -34,22 +34,8 @@ import com.geoodk.collect.android.adapters.CustomListAdapter;
 
 public class GeoODKOptionActivity extends Activity {
 	ListView list;
-	String[] itemname ={
-			"Collect Data",
-			"Edit Data",
-			"Send Data",
-			"Delete Data",
-			"Settings",
-			"About GeoODK"
-	};
-	String[] itemDescription = {
-			"Complete a new survey",
-			"Edit an existing survey",
-			"Send completed forms",
-			"Remove complete and blank forms",
-			"Configure forms, maps and others",
-			"Learn more about GeoODK"
-	};
+	String[] itemname;
+	String[] itemDescription;
 
 	Integer[] imgid={
 			R.drawable.geoodk_notes,
@@ -62,7 +48,24 @@ public class GeoODKOptionActivity extends Activity {
 
 	@Override
     public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+		itemname = new String[]{
+				getString(R.string.menu_collect_data),
+				getString(R.string.menu_edit_data),
+				getString(R.string.menu_send_data),
+				getString(R.string.menu_delete_data),
+				getString(R.string.menu_settings),
+				getString(R.string.menu_about_geoodk),
+		};
+		itemDescription = new String[]{
+				getString(R.string.menu_collect_data_description),
+				getString(R.string.menu_edit_data_description),
+				getString(R.string.menu_send_data_description),
+				getString(R.string.menu_delete_data_description),
+				getString(R.string.menu_settings_description),
+				getString(R.string.menu_about_geoodk_description),
+		};
+
+		super.onCreate(savedInstanceState);
         setContentView(R.layout.geoodk_option_layout);
 		CustomListAdapter adapter=new CustomListAdapter(this, itemname, itemDescription, imgid);
 		list=(ListView)findViewById(R.id.list);

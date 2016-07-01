@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
+  <string name="geoodk_mainTitle">Recogida de datos y cartografía</string>
+  <string name="menu_collect_data">Recolectar datos</string>
+  <string name="menu_collect_data_description">Completar una nueva encuesta</string>
+  <string name="menu_edit_data">Editar datos</string>
+  <string name="menu_edit_data_description">Editar una encuesta existente</string>
+  <string name="menu_send_data">Enviar datos</string>
+  <string name="menu_send_data_description">Enviar formularios cumplimentados</string>
+  <string name="menu_delete_data">Borrar datos</string>
+  <string name="menu_delete_data_description">Retire las formas completas y blanco</string>
+  <string name="menu_settings">Ajustes</string>
+  <string name="menu_settings_description">Configurar formularios, mapas y demás</string>
+  <string name="menu_about_geoodk">Sobre GeoODK</string>
+  <string name="menu_about_geoodk_description">Más información acerca GeoODK</string>
+  <string name="menu_map_data">Datos del Mapa</string>
+  <string name="menu_setting_form">Gestión de formularios</string>
+  <string name="menu_setting_general">Configuración general</string>
+  <string name="menu_setting_admin">Configuraciones de admin</string>
+  <string name="menu_setting_theme">Ajustes Mapa / Tema</string>
+
   <string name="accept_location">Registrar localización</string>
   <string name="accuracy">Precisión</string>
   <string name="activity_not_found">No se encontró actividad para manejar: %s</string>

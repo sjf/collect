@@ -59,7 +59,7 @@
 						android:layout_below="@+id/geoodk_collect_butt"
 						android:clickable="false"
 						android:layout_marginLeft="15dp"
-						android:text="Collect Data"
+						android:text="@string/menu_collect_data"
 						android:gravity="center_horizontal"/>
 				</RelativeLayout>
 
@@ -83,7 +83,7 @@
 						android:layout_below="@+id/geoodk_send_data_butt"
 						android:layout_marginLeft="15dp"
 						android:clickable="false"
-						android:text="Send Data" />
+						android:text="@string/menu_send_data" />
 				</RelativeLayout>
 			</LinearLayout>
 			<LinearLayout
@@ -114,7 +114,7 @@
 						android:layout_below="@+id/geoodk_edit_butt"
 						android:clickable="false"
 						android:layout_marginLeft="15dp"
-						android:text="Edit Data"
+						android:text="@string/menu_edit_data"
 						android:gravity="center_horizontal"/>
 				</RelativeLayout>
 
@@ -138,7 +138,7 @@
 						android:layout_below="@+id/geoodk_map_butt"
 						android:layout_marginLeft="20dp"
 						android:clickable="false"
-						android:text="Map Data" />
+						android:text="@string/menu_map_data" />
 				</RelativeLayout>
 			</LinearLayout>
 			<LinearLayout
@@ -169,7 +169,7 @@
 						android:layout_below="@+id/geoodk_delete_data_butt"
 						android:clickable="false"
 						android:layout_marginLeft="15dp"
-						android:text="Delete Data"
+						android:text="@string/menu_delete_data"
 						android:gravity="center_horizontal"/>
 				</RelativeLayout>
 
@@ -194,7 +194,7 @@
 						android:layout_below="@+id/geoodk_settings_butt"
 						android:layout_marginLeft="20dp"
 						android:clickable="false"
-						android:text="Settings" />
+						android:text="@string/menu_settings" />
 				</RelativeLayout>
 			</LinearLayout>
 		</LinearLayout>

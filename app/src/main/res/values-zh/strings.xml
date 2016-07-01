@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
+
+  <string name="geoodk_mainTitle">数据收集和地图</string>
+  <string name="menu_collect_data">收集数据</string>
+  <string name="menu_collect_data_description">完成一个问卷</string>
+  <string name="menu_edit_data">编辑数据</string>
+  <string name="menu_edit_data_description">编辑现有问卷</string>
+  <string name="menu_send_data">发送数据</string>
+  <string name="menu_send_data_description">发送已完成问卷</string>
+  <string name="menu_delete_data">删除数据</string>
+  <string name="menu_delete_data_description">删除已完成和空问卷</string>
+  <string name="menu_settings">设置</string>
+  <string name="menu_settings_description">设置问卷,地图和其他</string>
+  <string name="menu_about_geoodk">关于GeoODK</string>
+  <string name="menu_about_geoodk_description">了解更多关于GeoODK的信息</string>
+  <string name="menu_map_data">地图数据</string>
+  <string name="menu_setting_form">问卷管理</string>
+  <string name="menu_setting_general">常用设置</string>
+  <string name="menu_setting_admin">管理员设置</string>
+  <string name="menu_setting_theme">场景设置</string>
+
   <string name="accept_location">记录位置</string>
   <string name="accuracy">精度</string>
   <string name="activity_not_found">没找到与 %s 对应的活动</string>
